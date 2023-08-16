@@ -38,3 +38,5 @@ sent_agent_inst [rpm] [deb] [help]
 ## To Do:
 
  - Modify the script to download the needed installer from somewhere, probably a local server with either wget or scp
+ - Modify the script to download the config file from a remote (secure) server. Will need to think through the security implications of this one.
+ 
