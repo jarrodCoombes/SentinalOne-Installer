@@ -14,16 +14,18 @@
 	
    	
 	 There also needs to be a configuration file for the agent install options in the the 
-	 same install folder as the agent install ackages. There are a variet of option you 
-	 can specify in this file. See the link below for more details, SentinelOne dashboard 
-	 access is needed.
+	 same install folder as the agent install ackages. There are a variety of option you 
+	 can specify in this file. See the link below for more details (SentinelOne dashboard 
+	 access is needed to view this page).
 	
 	 https://usea1-017.sentinelone.net/docs/en/deploying-the-linux-agent-with-a-configuration-file.html##
 	
 	 NOTE: This script must be run with root privileges.
 	
 	
-	 Usage: sent_agent_inst [rpm] [deb] [help]
+	 Usage: 
+	 
+	 sent_agent_inst [rpm] [deb] [help]
 	
 	  deb	Specifies that the installer shouls use the DEB package and that 
 			you are installing onto a Debian or derivitave distro.
