@@ -1,6 +1,6 @@
 # SentinalOne Installer
 
-
+## Description
 
 This shell script can be used to to automate the install of the SentinalOne Linux Agent.
 
@@ -19,16 +19,16 @@ can specify in this file. See [this](https://usea1-017.sentinelone.net/docs/en/d
 file (SentinelOne dashboard access is needed to view this page).
 	
 	
-NOTE: This script must be run with root privileges.
+**NOTE: This script must be run with root privileges.**
 	
 	
- Usage: 
+## Usage: 
 	 
 sent_agent_inst [rpm] [deb] [help]
 
-deb		Specifies that the installer shouls use the DEB package and that you are installing onto a Debian or derivitave distro.
+	deb		Specifies that the installer shouls use the DEB package and that you are installing onto a Debian or derivitave distro.
     
-rpm		Specifies that the installer should use the RPM package and that you are isntalling onto a RHL or derivative distro.
+	rpm		Specifies that the installer should use the RPM package and that you are isntalling onto a RHL or derivative distro.
     
-help	Brings up this information screen, and is the same as -h or --help
+	help	Brings up this information screen, and is the same as -h or --help
 	
