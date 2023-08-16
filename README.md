@@ -15,10 +15,9 @@
    	
 	 There also needs to be a configuration file for the agent install options in the the 
 	 same install folder as the agent install ackages. There are a variety of option you 
-	 can specify in this file. See the link below for more details (SentinelOne dashboard 
-	 access is needed to view this page).
+	 can specify in this file. See [this](https://usea1-017.sentinelone.net/docs/en/deploying-the-linux-agent-with-a-configuration-file.html##) page for more details on how to build this config
+	 file (SentinelOne dashboard access is needed to view this page).
 	
-	 https://usea1-017.sentinelone.net/docs/en/deploying-the-linux-agent-with-a-configuration-file.html##
 	
 	 NOTE: This script must be run with root privileges.
 	
