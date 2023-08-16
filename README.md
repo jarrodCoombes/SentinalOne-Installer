@@ -34,3 +34,7 @@ sent_agent_inst [rpm] [deb] [help]
     
 	help	Brings up this information screen, and is the same as -h or --help
 	
+	
+## To Do:
+
+ - Modify the script to download the needed installer from somewhere, probably a local server with either wget or scp

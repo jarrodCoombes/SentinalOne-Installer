@@ -234,7 +234,7 @@ echo -e -n Step 5:'\t' Checking to make sure the profile file exists
 if [[ -r $profilepath ]]
    then
      echo ... profile file found and using it to set evironment variables and agent install options
-     # export S1_AGENT_INSTALL_CONFIG_PATH=$profilepath # <-------------------------------------------
+     export S1_AGENT_INSTALL_CONFIG_PATH=$profilepath # <-------------------------------------------
    else
      echo
      echo
@@ -246,8 +246,7 @@ fi
 
 
 echo -e -n Step 6:'\t' Installing the the package
-
-# $installer $PWD/$package  # <----------------------------------------------------------
+$installer $PWD/$package  # <----------------------------------------------------------
 
 
 # Now Check to make sure the installer finished ok.
