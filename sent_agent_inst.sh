@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #-----------------------------------------------------------------------------------------
-
 #Set our variables for our use
 
 # Path for the install profile
@@ -21,10 +20,10 @@ arm64_rpm="SentinelAgent-aarch64_linux_aarch64_v23_2_2_4.rpm"
 
 # Get the install type from the command line paramenter, then convert it to lowercase
 installer=$(echo "$1" | tr '[:upper:]' '[:lower:]')
+#-----------------------------------------------------------------------------------------
 
 
 #-----------------------------------------------------------------------------------------
-
 # Exit Codes
 #    0 = Normal exit, finished successfully
 #    1 = No Root privileges
@@ -34,8 +33,9 @@ installer=$(echo "$1" | tr '[:upper:]' '[:lower:]')
 #    5 = Unable to locate the profile file
 #   10 = Missing parameter, brings up the help screen
 #   99 = Package install failed for some reason
-
 #-----------------------------------------------------------------------------------------
+
+
 
 #-----------------------------------------------------------------------------------------
 #            					Functions
